@@ -11,7 +11,7 @@ build:
     #  ENABLE_INFORMIX: '1.3'
     output_files: output/*.zip
     image_template: phpworker-7.4
-    repo: https://github.com/brefphp/examples/tree/master/Laravel/queues
+    repo: https://github.com/brefphp/examples/Laravel/queues
     
 deploy:
     context: francisjoy/DEV
