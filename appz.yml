@@ -11,7 +11,6 @@ build:
     #  ENABLE_INFORMIX: '1.3'
     output_files: output/*.zip
     image_template: phplaradock-7.4
-    repo: https://github.com/francisjoy/laravel-app
     
 deploy:
     context: francisjoy/DEV
@@ -21,21 +20,4 @@ deploy:
     
 properties:
     
-    APP_NAME: Laravel
-    APP_ENV: local
-    APP_KEY:
-        vault: APP_KEY
-    APP_DEBUG: true
-    #APP_URL: http://francisjoy-dev-laravel-app-7-4.038ecc66.lowtouch.cloud
-    DB_CONNECTION: pgsql
-    DB_HOST: postgres13-master-13-x
-    DB_PORT: 5432
-    DB_DATABASE: php
-    DB_USERNAME: php
-    #DB_PASSWORD: bwUmhSkFlNMDZJYtGFJl
-    DB_PASSWORD:
-          vault: PHP_PASSWORD
-    
-    #ELASTIC_MIGRATE: 0
-    #DB_AUTHENTICATION_DATABASE: Admin
     revision : 3
