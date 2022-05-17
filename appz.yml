@@ -1,6 +1,6 @@
 app:
-    name: php-worker
-    code: php-worker
+    name: php-Laradock
+    code: php-Laradock
     notify: fjoy@ecloudcontrol.com
     
 build:
